@@ -1,0 +1,13 @@
+ h1 {
+    text-align: center;
+}
+
+#output {
+    font-size: 124px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+body {
+    background-color: rgb(155, 203, 241);
+}

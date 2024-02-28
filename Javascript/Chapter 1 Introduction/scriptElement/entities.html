@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Entities</title>
+    <script>
+        var bordersize=5;
+        var tablecellcolor="#ff0000";
+        var alignment="center";
+
+        function setImage()
+        {
+            var today = new Date();
+            var hourse = today.getHours();
+            if ((hours > 8) && (hours < 18))
+                return 'sun.gif';
+            else
+                return 'moon.gif';
+        }
+    </script>
+</head>
+<body>
+    <table border="&{bordersize};" align="&{alignment};">
+        <tr>
+            <td bgcolor="&{tablecellcolor};">JavaScript Entities!</td>
+        </tr>
+    </table>
+    In the sky now:  <img src="&{setImage()};">
+</body>
+</html>
